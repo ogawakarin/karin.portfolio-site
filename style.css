@@ -285,6 +285,10 @@ h2 {
   list-style: none;
 }
 
+.work-list-games {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
 .work-card {
   overflow: hidden;
   padding: 12px;
@@ -324,6 +328,12 @@ h2 {
   padding: 10px;
   object-fit: contain;
   cursor: url("assets/paw-cursor-hover.png") 16 16, pointer;
+}
+
+.work-image-print {
+  width: 100%;
+  max-height: 420px;
+  aspect-ratio: 3 / 4;
 }
 
 .work-image-iromusubi {
