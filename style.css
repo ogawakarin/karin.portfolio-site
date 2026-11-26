@@ -331,9 +331,20 @@ h2 {
 }
 
 .work-image-print {
-  width: 100%;
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  min-height: 0;
+  margin-inline: auto;
+  aspect-ratio: auto;
+}
+
+.work-image-print img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
   max-height: 420px;
-  aspect-ratio: 3 / 4;
+  padding: 0;
 }
 
 .work-image-iromusubi {
