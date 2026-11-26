@@ -326,6 +326,11 @@ h2 {
   cursor: url("assets/paw-cursor-hover.png") 16 16, pointer;
 }
 
+.work-image-iromusubi {
+  width: 100%;
+  margin-inline: auto;
+}
+
 .work-qr {
   display: flex;
   justify-content: center;
@@ -556,6 +561,31 @@ h2 {
   color: var(--muted);
   font-size: 0.92rem;
   line-height: 1.75;
+}
+
+.work-play-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  margin: 0 8px 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: var(--lavender-deep);
+  color: var(--paper);
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.work-play-link:hover,
+.work-play-link:focus-visible {
+  background: var(--ink);
+}
+
+.work-play-link:focus-visible {
+  outline: 2px solid var(--lavender-deep);
+  outline-offset: 3px;
 }
 
 body.lightbox-open {
